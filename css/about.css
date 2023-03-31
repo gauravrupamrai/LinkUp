@@ -22,8 +22,8 @@
 }
 
 .container p {
-  color: #999;
-  font-size: calc(0.75em + 0.75vw);
+  color: rgb(98, 96, 96);
+  font-size: calc(0.7em + 0.7vw);
   line-height: 1.5;
   padding: 4rem 4rem 4rem 0;
 }
@@ -136,7 +136,7 @@
     display: block;
   }
 }
-.about-img{
+.about-img {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
