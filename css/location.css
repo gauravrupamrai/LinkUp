@@ -115,7 +115,7 @@ section {
   .locations-showcase-title {
     grid-column: 1;
   }
-  .home-text p{
+  .home-text p {
     font-size: calc(1.3em + 0.9vw);
   }
 }
