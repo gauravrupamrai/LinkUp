@@ -59,7 +59,8 @@ p {
   max-width: 60em;
   min-height: 100vh;
   box-shadow: 0 0 1em 1em rgba(0, 0, 0, 0.1);
-  padding-bottom: 6em;
+  padding: 2.6rem;
+  margin-top: 10vh;
 }
 
 .visuallyhidden {
@@ -112,11 +113,11 @@ p {
 }
 .controls__dot {
   display: inline-block;
-  width: 0.85em;
-  height: 0.85em;
+  width: 2.85em;
+  height: 2.85em;
   border-radius: 50%;
   outline: none;
-  background-color: #fff;
+  background-color: #2e2e2e;
   opacity: 0.8;
   cursor: pointer;
   transition: opacity 0.2s;
@@ -134,9 +135,10 @@ p {
   margin-right: auto;
   margin-left: auto;
   max-width: 80%;
-  /* min-height: 100vh; */
+  min-height: 100vh;
   box-shadow: 0 0 1em 1em rgba(0, 0, 0, 0.1);
   padding-bottom: 6em;
+  margin-top: 10vh;
 }
 .visuallyhidden {
   border: 0;
