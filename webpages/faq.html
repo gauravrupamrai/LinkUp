@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="../css/index.css" />
-    <link rel="stylesheet" href="../css/faq.css" />
     <title>LinkUp - FAQ</title>
 
     <!-- Google Fonts Link - Poppins -->
@@ -18,8 +16,8 @@
     />
 
     <!-- css file link -->
-    <link rel="stylesheet" href="css/index.css" />
-
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/faq.css" />
     <!-- boxicons style sheet -->
     <link
       rel="stylesheet"
@@ -34,35 +32,42 @@
       <label for="btn" class="icon">
         <span class="menu"><i class="bx bx-menu"></i></span>
       </label>
-      <input type="checkbox" id="btn" />
+      <input type="checkbox" id="btn" class="toggle-menu" />
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
         <li>
           <label for="btn-1" class="show"
-            >Locations<i class="bx bxs-down-arrow"></i
+            >Locations<i class="bx bxs -down-arrow"></i
           ></label>
-          <a href="#">Locations</a>
-          <input type="checkbox" id="btn-1" />
+          <a href="./locations/locations.html">Locations</a>
+          <input type="checkbox" id="btn-1" class="toggle-menu" />
           <ul>
-            <li><a href="#">Dublin</a></li>
-            <li><a href="#">Sligo</a></li>
-            <li><a href="#">Cork</a></li>
-            <li><a href="#">Galway</a></li>
-            <li><a href="#">Limerik</a></li>
+            <li><a href="./locations/location_dublin.html">Dublin</a></li>
+            <li><a href="./locations/location_sligo.html">Sligo</a></li>
+            <li><a href="./locations/location_cork.html">Cork</a></li>
+            <li><a href="./locations/location_galway.html">Galway</a></li>
+            <li><a href="./locations/location_limerick.html">Limerick</a></li>
+            <li><a href="./locations/location_carlow.html">Carlow</a></li>
           </ul>
         </li>
         <li>
           <label for="btn-2" class="show"
             >Workspaces<i class="bx bxs-down-arrow"></i
           ></label>
-          <a href="#">Workspaces</a>
-          <input type="checkbox" id="btn-2" />
+          <a href="./workspaces/workspace.html">Workspaces</a>
+          <input type="checkbox" id="btn-2" class="toggle-menu" />
           <ul>
-            <li><a href="#">Dedicated Desks</a></li>
-            <li><a href="#">Private Offices</a></li>
-            <li><a href="#">Conference Rooms</a></li>
-            <li><a href="#">Event Spaces</a></li>
+            <li>
+              <a href="./workspaces/dedicatedDesk.html">Dedicated Desks</a>
+            </li>
+            <li>
+              <a href="./workspaces/privateOffice.html">Private Offices</a>
+            </li>
+            <li>
+              <a href="./workspaces/conferenceRoom.html">Conference Rooms</a>
+            </li>
+            <li><a href="./workspaces/eventSpace.html">Event Spaces</a></li>
           </ul>
         </li>
         <li>
@@ -70,14 +75,14 @@
             >More<i class="bx bxs-down-arrow"></i
           ></label>
           <a href="#">More</a>
-          <input type="checkbox" id="btn-3" />
+          <input type="checkbox" id="btn-3" class="toggle-menu" />
           <ul>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">FAQs</a></li>
+            <li><a href="./contactus.html">Contact Us</a></li>
+            <li><a href="./testimonial.html">Testimonials</a></li>
+            <li><a href="./faq.html">FAQs</a></li>
           </ul>
         </li>
-        <li><a href="#schedule">Schedule a Tour</a></li>
+        <li><a href="./tour.html">Schedule a Tour</a></li>
       </ul>
     </nav>
 
