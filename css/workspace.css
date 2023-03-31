@@ -10,3 +10,19 @@
 img {
   border-radius: 5%;
 }
+
+@media (max-width: 768px) {
+  #privateOffices div:nth-of-type(2) {
+    order: 1;
+  }
+  #privateOffices div:nth-of-type(1) {
+    order: 2;
+  }
+
+  #eventSpace div:nth-of-type(2) {
+    order: 1;
+  }
+  #eventSpace div:nth-of-type(1) {
+    order: 2;
+  }
+}

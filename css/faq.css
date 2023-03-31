@@ -13,13 +13,10 @@
 }
 
 body {
-  height: 100%;
-  background: url(../images/home-bg.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: #f2f2f2;
+  /* url(../images/home-bg.jpg) no-repeat; */
   background-repeat: no-repeat;
-  align-items: center;
-  /* min-height: 100vh; */
+  min-height: 100vh;
 }
 
 .main-container {
@@ -48,13 +45,6 @@ body {
   align-items: center;
   overflow: hidden;
   position: relative;
-}
-
-.box {
-  display: block;
-  position: absolute;
-  transform: translateX(-50%) translateY(85%);
-  z-index: 1;
 }
 
 .desk-img {
@@ -127,10 +117,6 @@ body {
 
 @media (max-width: 1155px) {
   .desk-img {
-    display: none;
-  }
-
-  .box {
     display: none;
   }
 

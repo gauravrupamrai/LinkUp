@@ -1,5 +1,71 @@
-.about-us {
-  padding: 2rem 9%;
+.home {
+  min-height: 50vh;
+  justify-content: center;
+}
+
+.heading {
+  text-align: left;
+  font-size: calc(1em + 1vw);
+  color: #333;
+  padding: 1rem;
+  margin: 2rem 0;
+  background: rgba(0, 95, 190, 0.05);
+  grid-column: 1/5;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.container p {
+  color: #999;
+  font-size: calc(0.75em + 0.75vw);
+  line-height: 1.5;
+  padding: 4rem 4rem 4rem 0;
+}
+
+.container img {
+  border-radius: 5%;
+}
+
+.containerteam {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.team-member-heading {
+  grid-column: 1/5;
+}
+
+.experience {
+  grid-column: 1/3;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.infra {
+  grid-column: 1/3;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.values {
+  grid-column: 1/3;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.promise {
+  grid-column: 1/3;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .about-content {
@@ -16,16 +82,16 @@
 .team-members {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 1rem;
   justify-content: center;
 }
 
 .team-member {
-  flex: 1 1 30rem;
+  flex: 1 1 20rem;
   text-align: center;
   padding: 1rem;
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
-  border-radius: 0.5rem;
+  border-radius: 1.5rem;
   border: 0.1rem solid rgba(0, 0, 0, 0.1);
 }
 
@@ -33,7 +99,7 @@
   width: 100%;
   height: auto;
   max-width: 250px;
-  border-radius: 50%;
+  /* border-radius: 10%; */
   object-fit: cover;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
@@ -48,4 +114,25 @@
   font-size: calc(0.75em + 1vw);
   color: #999;
   padding-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: block;
+  }
+  .experience {
+    display: block;
+  }
+  .infra {
+    display: block;
+  }
+  .values {
+    display: block;
+  }
+  .promise {
+    display: block;
+  }
+  .containerteam {
+    display: block;
+  }
 }
