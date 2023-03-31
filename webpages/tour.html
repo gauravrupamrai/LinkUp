@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Linkup</title>
+    <title>Book a tour</title>
 
     <!-- Google Fonts Link - Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,6 +18,11 @@
     <!-- boxicons style sheet -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
+        <!-- favicon start -->
+
+        <link rel="icon" href="../images/favicon/favicon.ico" />
+        <!-- favicon end -->
+
 </head>
 <body>
     
@@ -28,35 +33,37 @@
 
 
         <nav class="navbar">
-            <div class="logo">linkup</div>
+          <div class="logo">
+            <img src="../images/Logo_Normal.png" alt="LinkUp">
+          </div>
             <label for="btn" class="icon">
                 <span class="menu"><i class='bx bx-menu'></i></span>
               </label>
               <input type="checkbox" id="btn" class="toggle-menu">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
                 <li>
                     <label for="btn-1" class="show">Locations<i class='bx bxs-down-arrow'></i></label>
-                    <a href="#">Locations</a>
+                    <a href="locations/locations.html">Locations</a>
                     <input type="checkbox" id="btn-1" class="toggle-menu">
                     <ul>
-                        <li><a href="#">Dublin</a></li>
-                        <li><a href="#">Sligo</a></li>
-                        <li><a href="#">Cork</a></li>
-                        <li><a href="#">Galway</a></li>
-                        <li><a href="#">Limerik</a></li>
+                        <li><a href="locations/location_dublin.html">Dublin</a></li>
+                        <li><a href="locations/location_sligo.html">Sligo</a></li>
+                        <li><a href="locations/location_cork.html">Cork</a></li>
+                        <li><a href="locations/location_galway.html">Galway</a></li>
+                        <li><a href="locations/location_limerick.html">Limerik</a></li>
                     </ul>
                 </li>
                 <li>
                     <label for="btn-2" class="show">Workspaces<i class='bx bxs-down-arrow'></i></label>
-                    <a href="#">Workspaces</a>
+                    <a href="workspaces/workspace.html">Workspaces</a>
                     <input type="checkbox" id="btn-2" class="toggle-menu">
                     <ul>
-                        <li><a href="#">Dedicated Desks</a></li>
-                        <li><a href="#">Private Offices</a></li>
-                        <li><a href="#">Conference Rooms</a></li>
-                        <li><a href="#">Event Spaces</a></li>
+                        <li><a href="workspaces/dedicatedDesk.html">Dedicated Desks</a></li>
+                        <li><a href="workspaces/privateOffice.html">Private Offices</a></li>
+                        <li><a href="workspaces/conferenceRoom.html">Conference Rooms</a></li>
+                        <li><a href="workspaces/eventSpace.html">Event Spaces</a></li>
                     </ul>
                 </li>
                 <li>
@@ -64,12 +71,11 @@
                     <a href="#">More</a>
                     <input type="checkbox" id="btn-3" class="toggle-menu">
                     <ul>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Testimonials</a></li>
-                        <li><a href="#">FAQs</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li><a href="faq.html">FAQs</a></li>
                     </ul>
                 </li>
-                <li><a href="#schedule">Schedule a Tour</a></li>
+                <li><a href="#">Schedule a Tour</a></li>
             </ul>
         </nav>
 
@@ -78,29 +84,7 @@
     <!-- contactus section starts -->
 
     <div class="container max-width-mobile">
-        <!-- <h1 class="heading"> <span> Contact </span> Us </h1> -->
         <div class="content">
-            <!-- <div class="left-side">
-                <div class="address details">
-                    <i class='bx bxs-location-plus'></i>
-                    <div class="topic">Address</div>
-                    <div class="text-one">98 East Avenue 22nd Street</div>
-                    <div class="text-two">Dublin 5</div>
-                  </div>
-                  <div class="phone details">
-                    <i class='bx bxs-phone-call' ></i>
-                    <div class="topic">Phone</div>
-                    <div class="text-one">+353 899-823-473</div>
-                    <div class="text-two">+353 899-823-473</div>
-                  </div>
-                  <div class="email details">
-                    <i class='bx bxs-envelope' ></i>
-                    <div class="topic">Email</div>
-                    <div class="text-one">info@linkup.ie</div>
-                    <div class="text-two">info.linkup@gmail.com</div>
-                  </div>
-            </div> -->
-
             <div class="right-side">
                 <div class="topic-text">Schedule a tour</div>
                 <div class="para">Schedule a tour to any of our sites to see the LinkUp spaces for yourself</div>
@@ -143,19 +127,11 @@
         <div class="box-container">
             <div class="box">
                 <h3>Quick Links</h3>
-                <a href="#">Home</a>
-                <a href="#">Locations</a>
-                <a href="#">Workspaces</a>
-                <a href="#">About Us</a>
-                <a href="#">Contact Us</a>
-            </div>
-            <div class="box">
-                <h3>Extra Links</h3>
-                <a href="#">Home</a>
-                <a href="#">Locations</a>
-                <a href="#">Workspaces</a>
-                <a href="#">About Us</a>
-                <a href="#">Contact Us</a>
+                <a href="../index.html">Home</a>
+                <a href="locations/locations.html">Locations</a>
+                <a href="workspaces/workspace.html">Workspaces</a>
+                <a href="about.html">About Us</a>
+                <a href="contactus.html">Contact Us</a>
             </div>
             <div class="box">
                 <h3>Socials</h3>
@@ -173,7 +149,8 @@
                 <a href="#">+353 899-823-473</a>
             </div>
         </div>
-        <div class="credit"> Created by <span> Team Red Rangers - Dino Thunder </span> | All right reserved. </div>
+        <div class="credit"> Created by <span> Gaurav Sudarshan Rai, Sakshi Rajendra Parab, Akshay Kulkarni, Dean Moran and Fiontán Ó Curraoin </span> | All right
+          reserved. </div>
     </section>
 
     <!-- footer section ends -->
