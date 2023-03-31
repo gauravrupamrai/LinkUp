@@ -58,6 +58,11 @@ nav ul{
     position: relative;
 }
 
+.logo > img {
+    max-width: 11vw;
+    margin-top: 1.5rem;
+}
+
 nav ul li{
     /* float: left; */
     display: inline-block;
@@ -149,6 +154,16 @@ nav ul li{
 
 .btn:hover{
     background: var(--blue);
+}
+.btn-schedule-a-tour{
+    display: inline-block;
+    border-radius: 1rem;
+    /* margin: 1rem; */
+    background: #333;
+    color: #fff;
+    /* padding: 1.5rem 2.5rem; */
+    cursor: pointer;
+    /* font-size: calc( .3em + 1vw); */
 }
 
 section{
@@ -477,6 +492,9 @@ section{
     color: var(--blue);
 }
 
+.max-width-mobile{
+    width: 100% !important;
+}
 
 
 
@@ -590,6 +608,13 @@ section{
 @media (max-width:450px) {
     html{
         font-size: 50%;
+    }
+    .btn {
+        font-size: calc( 1em + 1vw);
+    }
+    .logo > img {
+        max-width: 11vh;
+        margin-top: 1.5rem;
     }
 
 }

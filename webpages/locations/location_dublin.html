@@ -17,6 +17,7 @@
     <!-- css file link -->
     <link rel="stylesheet" href="../../css/index.css" />
     <link rel="stylesheet" href="../../css/citylocations.css" />
+    <link rel="stylesheet" href="../../css/workspace.css" />
 
     <!-- boxicons style sheet -->
     <link
@@ -98,7 +99,41 @@
       </ul>
     </nav>
 
-    <div class="carousel">
+    <div class="wrapper">
+      <div class="carousel-container">
+        <div class="carousel">
+          <div id="skyline" class="carousel__item">
+            <img src="https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=960&h=420&q=80" alt="Skyline of Wai Tan, Shanghai" class="carousel__image">
+          </div>
+          <div id="great-wall-of-china" class="carousel__item">
+            <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=960&h=420&q=80" alt="Great wall of China." class="carousel__image">
+          </div>
+          <div id="sunset-on-the-li-river" class="carousel__item">
+            <img src="https://images.unsplash.com/photo-1543097692-fa13c6cd8595?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=960&h=420&q=80" alt="Sunset on the Li River as the few remaining cormorant fisherman pack their." class="carousel__image">
+          </div>
+        </div>
+        <div id="controls" class="controls">
+          <a href="#skyline" class="controls__dot">
+            <span class="visuallyhidden">Skyline of Wai Tan, Shanghai</span>
+          </a>
+          <a href="#great-wall-of-china" class="controls__dot">
+            <span class="visuallyhidden">Great wall of China</span>
+          </a>
+          <a href="#sunset-on-the-li-river" class="controls__dot">
+            <span class="visuallyhidden">Sunset on the Li River</span>
+          </a>
+        </div>
+      </div>
+      
+      <div class="intro">
+        <h1>Carousel with CSS Scroll Snap</h1>
+        <p>Recently, when I was reminded of the existence of the CSS property `scroll-snap`, I thought it should be easy to create a simple carousel component with it. After outlining a quick proof of concept in a simple HTML file, my assumption was confirmed.</p>
+      </div>
+    </div>
+
+
+
+    <!-- <div class="carousel">
       <div id="skyline" class="carousel__item">
         <img src="..." alt="..." class="carousel__image" />
       </div>
@@ -108,8 +143,8 @@
       <div id="sunset-on-the-li-river" class="carousel__item">
         <img src="..." alt="..." class="carousel__image" />
       </div>
-    </div>
-    <div id="controls" class="controls">
+    </div> -->
+    <!-- <div id="controls" class="controls">
       <a href="#skyline" class="controls__dot">
         <span class="visuallyhidden">Skyline of Wai Tan, Shanghai</span>
       </a>
@@ -119,7 +154,74 @@
       <a href="#sunset-on-the-li-river" class="controls__dot">
         <span class="visuallyhidden">Sunset on the Li River</span>
       </a>
-    </div>
+    </div> -->
+
+    <section class="about" id="about">
+      <h1 class="heading">Explore Office Spaces</h1>
+      <div class="row" id="dedicatedDesks">
+        <div class="video-container">
+          <img src="../../images/office-layout/dedicated-desk.jpg" alt="" class="max-width-mobile" />
+        </div>
+        <div class="content">
+          <h3>Dedicated Desks</h3>
+          <p>
+            Open floor dedicated work space with state of the art workstations
+            for you to start working without any worries of setting up the work
+            environment.
+          </p>
+          <a href="#" class="btn">Learn More...</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="row" id="privateOffices">
+        <div class="content">
+          <h3>Private Offices</h3>
+          <p>
+            Explore private office spaces catered towards professionals who want
+            a quite and private work environment.
+          </p>
+          <a href="#" class="btn">Learn More...</a>
+        </div>
+        <div class="video-container max-width-mobile">
+          <img src="../../images/office-layout/private-office.jpg" class="max-width-mobile" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="row" id="conferenceRoom">
+        <div class="video-container max-width-mobile">
+          <img src="../../images/office-layout/dedicated-desk.jpg" class="max-width-mobile" alt="" />
+        </div>
+        <div class="content">
+          <h3>Conference Rooms</h3>
+          <p>
+            Open floor dedicated work space with state of the art workstations
+            for you to start working without any worries of setting up the work
+            environment.
+          </p>
+          <a href="#" class="btn">Learn More...</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="row" id="eventSpace">
+        <div class="content">
+          <h3>Event Spaces</h3>
+          <p>
+            Explore private office spaces catered towards professionals who want
+            a quite and private work environment.
+          </p>
+          <a href="#" class="btn">Learn More...</a>
+        </div>
+        <div class="video-container max-width-mobile">
+          <img src="../../images/office-layout/private-office.jpg" class="max-width-mobile" alt="" />
+        </div>
+      </div>
+    </section>
 
     <!-- header section ends -->
     <section class="footer">

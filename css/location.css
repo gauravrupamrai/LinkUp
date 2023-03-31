@@ -73,10 +73,11 @@
 }
 
 .office-building-img {
-  width: 400px;
-  height: 400px;
+  /* width: 400px;
+  height: 400px; */
   border-radius: 10%;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  max-width: 100%;
 }
 
 .locations-showcase-image p {
@@ -113,5 +114,8 @@ section {
 
   .locations-showcase-title {
     grid-column: 1;
+  }
+  .home-text p{
+    font-size: calc(1.3em + 0.9vw);
   }
 }

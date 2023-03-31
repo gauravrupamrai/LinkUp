@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linkup</title>
+
+    <!-- Google Fonts Link - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="../../css/index.css" />
+    <link rel="stylesheet" href="../../css/citylocations.css" />
+    <link rel="stylesheet" href="../../css/workspace.css" />
+
+    <!-- boxicons style sheet -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+</head>
+
+<body>
+    <!-- header section starts -->
+
+    <nav class="navbar">
+        <div class="logo">linkup</div>
+        <label for="btn" class="icon">
+            <span class="menu"><i class="bx bx-menu"></i></span>
+        </label>
+        <input type="checkbox" id="btn" class="toggle-menu" />
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../about.html">About Us</a></li>
+            <li>
+                <label for="btn-1" class="show">Locations<i class="bx bxs-down-arrow"></i></label>
+                <a href="./locations.html">Locations</a>
+                <input type="checkbox" id="btn-1" class="toggle-menu" />
+                <ul>
+                    <li>
+                        <a href="./location_dublin.html">Dublin</a>
+                    </li>
+                    <li>
+                        <a href="./location_sligo.html">Sligo</a>
+                    </li>
+                    <li><a href="./location_cork.html">Cork</a></li>
+                    <li>
+                        <a href="./location_galway.html">Galway</a>
+                    </li>
+                    <li>
+                        <a href="./location_limerick.html">Limerick</a>
+                    </li>
+                    <li>
+                        <a href="./location_carlow.html">Carlow</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <label for="btn-2" class="show">Workspaces<i class="bx bxs-down-arrow"></i></label>
+                <a href="../workspaces/workspace.html">Workspaces</a>
+                <input type="checkbox" id="btn-2" class="toggle-menu" />
+                <ul>
+                    <li>
+                        <a href="../workspaces/dedicatedDesk.html">Dedicated Desks</a>
+                    </li>
+                    <li>
+                        <a href="../workspaces/privateOffice.html">Private Offices</a>
+                    </li>
+                    <li>
+                        <a href="../workspaces/conferenceRoom.html">Conference Rooms</a>
+                    </li>
+                    <li>
+                        <a href="../workspaces/eventSpace.html">Event Spaces</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <label for="btn-3" class="show">More<i class="bx bxs-down-arrow"></i></label>
+                <a href="#">More</a>
+                <input type="checkbox" id="btn-3" class="toggle-menu" />
+                <ul>
+                    <li><a href="../contactus.html">Contact Us</a></li>
+                    <li><a href="../testimonial.html">Testimonials</a></li>
+                    <li><a href="../faq.html">FAQs</a></li>
+                </ul>
+            </li>
+            <li><a class="btn-schedule-a-tour" href="../tour.html">Schedule a Tour</a></li>
+        </ul>
+    </nav>
+
+    <div class="wrapper">
+        <div class="carousel-container">
+          <div class="carousel">
+            <div id="skyline" class="carousel__item">
+              <img src="https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=960&h=420&q=80" alt="Skyline of Wai Tan, Shanghai" class="carousel__image">
+            </div>
+            <div id="great-wall-of-china" class="carousel__item">
+              <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=960&h=420&q=80" alt="Great wall of China." class="carousel__image">
+            </div>
+            <div id="sunset-on-the-li-river" class="carousel__item">
+              <img src="https://images.unsplash.com/photo-1543097692-fa13c6cd8595?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=960&h=420&q=80" alt="Sunset on the Li River as the few remaining cormorant fisherman pack their." class="carousel__image">
+            </div>
+          </div>
+          <div id="controls" class="controls">
+            <a href="#skyline" class="controls__dot">
+              <span class="visuallyhidden">Skyline of Wai Tan, Shanghai</span>
+            </a>
+            <a href="#great-wall-of-china" class="controls__dot">
+              <span class="visuallyhidden">Great wall of China</span>
+            </a>
+            <a href="#sunset-on-the-li-river" class="controls__dot">
+              <span class="visuallyhidden">Sunset on the Li River</span>
+            </a>
+          </div>
+        </div>
+        
+        <div class="intro">
+          <h1>Carousel with CSS Scroll Snap</h1>
+          <p>Recently, when I was reminded of the existence of the CSS property `scroll-snap`, I thought it should be easy to create a simple carousel component with it. After outlining a quick proof of concept in a simple HTML file, my assumption was confirmed.</p>
+        </div>
+    </div>
+
+    <h1 class="heading">Our <span>Workspaces</span></h1>
+
+    <section class="icons-container">
+        <div class="icons">
+          <img src="images/flags.png" alt="" />
+          <div class="info">
+            <h3>6</h3>
+            <span>Counties</span>
+          </div>
+        </div>
+        <div class="icons">
+          <img src="images/location.png" alt="" />
+          <div class="info">
+            <h3>25+</h3>
+            <span>Locations</span>
+          </div>
+        </div>
+        <div class="icons">
+          <img src="images/team.png" alt="" />
+          <div class="info">
+            <h3>10k+</h3>
+            <span>Members</span>
+          </div>
+        </div>
+        <div class="icons">
+          <img src="images/meeting-room.png" alt="" />
+          <div class="info">
+            <h3>5M+</h3>
+            <span>Sq. Ft.</span>
+          </div>
+        </div>
+      </section>
+
+    <!-- footer section ends -->
+    <section class="footer">
+        <div class="box-container">
+          <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="#">Locations</a>
+            <a href="#">Workspaces</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <div class="box">
+            <h3>Extra Links</h3>
+            <a href="#">Home</a>
+            <a href="#">Locations</a>
+            <a href="#">Workspaces</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <div class="box">
+            <h3>Socials</h3>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+          </div>
+          <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#">98 East Avenue 22nd Street</a>
+            <a href="#">Dublin 5</a>
+            <a href="#">+353 899-823-473</a>
+            <a href="#">info@linkup.ie</a>
+            <a href="#">+353 899-823-473</a>
+          </div>
+        </div>
+        <div class="credit">
+          Created by <span> Team Red Rangers - Dino Thunder </span> | All right
+          reserved.
+        </div>
+    </section>
+  
+      <!-- footer section ends -->
+</body>
+
+</html>
