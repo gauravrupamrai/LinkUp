@@ -1,0 +1,12 @@
+.heading {
+  margin-top: 10rem;
+}
+
+.about .row .video-container {
+  flex: 1 1 10rem;
+  position: relative;
+}
+
+img {
+  border-radius: 5%;
+}
