@@ -4,6 +4,7 @@ LinkUp is a static website designed to provide information about co-working spac
 ## Table of Contents
 
 - [Usage](#usage)
+- [Folder Structure Overview](#folder-structure-overview)
 - [Technologies Used](#technologies-used)
 - [Installation & Setup](#installation--setup)
 - [Live Demo](#live-demo)
